@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 14px;
+	background-color: #edeef0;
+}
+
+div {
+	display: block;
+}
+
+	.wrapper {
+		width: 970px;
+		padding: 0px 15px;
+		background-color: #edeef0;
+	}
+
+		.header {
+			background-color: #4a76a8;
+			height: 42px;
+			width: inherit;
+			position: fixed;
+			top: 0px;
+		}
+
+			.logo, .search, .notification, .onMusic {
+				float: left;
+				height: inherit;
+			}
+			.logo {
+				width: 165px;
+			}
+
+			.search {
+				width: 230px;
+			}
+
+			.notification {
+				width: 61px;
+				padding-left: 15px;
+			}
+
+			.onMusic {
+				width: 394px;
+			}
+
+			.user {
+				float: right;
+				width: 110px;
+				height: inherit;
+			}
+	
+		.menu {
+			width: 150px;
+			height: 500px;  /* тут потом поменять в зависимости от кол-ва открытых в опциях страниц */
+			float: left;
+			top: 0px;
+			color: #557790;
+		}
+
+		.content {
+			width: 795px;
+			float: left;
+		}
+
+			.contentCenter {
+				width: 550px;
+				padding: 15px;
+				float: left;
+			}
+
+			.contentRight {
+				width: 230px;
+				padding: 15px 0px 15px 0px;
+				float: left;
+			}
+
+	
