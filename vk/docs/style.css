@@ -1,0 +1,208 @@
+body {
+	background: #edeef0;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    line-height: 1.154;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.main_wrap {
+	text-align: left;
+	direction: ltr;
+}
+
+.main_content {
+	position: relative;
+	text-align: left;
+}
+
+header {
+	position: fixed;
+    height: 42px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 120;
+    direction: ltr;
+}
+
+.fix {
+	position: absolute;
+    width: 100%;
+    background: #4a76a8;
+    height: 42px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #4872a3;
+}
+
+.header {
+	position: relative;
+    height: 42px;
+    margin: 0 auto;
+    font-size: 12.5px;
+    padding: 0 15px;
+    width: 960px;
+}
+
+.top_nav {
+	margin: 0;
+}
+
+.header-logo {
+	padding-top: 11px;
+}
+
+.header__search-input {
+	border: 0;
+	height: 28px;
+	border-radius: 14px;
+	width: 200px;
+	transition: background .5s, color .5s;
+	background: #224b7a url(../img/ic_head_loupe.svg) no-repeat;
+	background-origin: padding-box;
+	background-position: 10px 8px;
+	line-height: 16px;
+	padding-left: 30px;
+	margin-top: 6px;
+	color: #8fadc8;
+	outline:none;
+}
+
+.header__search-input:focus {
+	background-color: white;
+	color: black;
+}
+
+.header__notification {
+	margin: 0 auto;
+}
+
+.header__notification-button,
+.header__onMusic-button {
+	position: relative;
+	width: 46px;
+	height: 42px;
+	display: block;
+	top: 0;
+}
+
+.header__notification-img,
+.header__onMusic-img {
+	padding-top: 11px;
+	padding-left: 13px;
+}
+
+.header__notification-button:hover, 
+.header__onMusic-list:hover,
+.header__user:hover {
+	background-color: #3d6898;
+}
+
+.header__onMusic {
+	width: 92px;
+	display: inline-block;
+}
+
+.header__onMusic-list {
+	width: 46px;
+	float: left;
+}
+
+.header__onMusic-play {
+	width: 46px;
+	float: left;
+}
+
+.header__onMusic-button2 {
+	position: relative;
+    display: block;
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 22px;
+    top: 11px;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #224b7a;
+    overflow: visible;
+  	outline: none;
+}
+
+.header__onMusic-button2:before {
+	position: absolute;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #224b7a;
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 6px;
+    left: -2px;
+    border-radius: 1px;
+}
+
+.header__onMusic-button2:after {
+	display: block;
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 10px;
+    top: 5px;
+    left: 8px;
+    background: url(../img/data_image_svg+xml;….svg) no-repeat
+}
+
+.header__onMusic-button2:hover,
+.header__onMusic-button2:hover:before {
+	background-color: #1c416b;
+}
+
+.user {
+	float:right;
+}
+
+.header__user {
+	display: inline-block;
+    white-space: nowrap;
+    line-height: 42px;
+    height: 42px;
+    overflow: hidden;
+    padding: 0 10px;
+    color: #fff;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+
+.user-name {
+	padding-right: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.user-img,
+.user-arrowhead {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.user-img {
+	width: 28px;
+	height: 28px;
+	border-radius: 14px;
+	margin: 7px 0;
+}
+
+.user-arrowhead {
+	background: url(../img/svg_arrow/data_image_svg+xml;….svg) no-repeat;
+    background-position: right 0;
+    margin: 20px 8px 0 7px;
+    width: 8px;
+    height: 4px;
+    opacity: 0.45;
+}

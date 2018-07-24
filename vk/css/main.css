@@ -4,7 +4,7 @@
 }
 
 body {
-	font-family: sans-serif;
+	font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
 	font-size: 14px;
 	background-color: #edeef0;
 }
@@ -19,14 +19,15 @@ div {
 		background-color: #edeef0;
 		margin: 0px auto 0px auto;
 	}
-
+		/*
 		.header {
 			background-color: #4a76a8;
 			height: 42px;
 			width: 100%;
 			position: fixed;
 			top: 0px;
-		}
+			font-size: 12.5px;
+		}*/
 
 			.logo, .search, .notification, .onMusic {
 				float: left;
@@ -41,17 +42,12 @@ div {
 			}
 
 			.notification {
-				width: 61px;
+				width: 46px;
 				padding-left: 15px;
 			}
 
-			.onMusic {
-				width: 394px;
-			}
-
 			.user {
-				float: right;
-				width: 110px;
+				width:inherit;
 				height: inherit;
 			}
 	
